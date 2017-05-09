@@ -59,9 +59,9 @@ var (
 // PowerDNS recursor metrics definitions
 var (
 	recursorGaugeDefs = []gaugeDefinition{
-		gaugeDefinition{1, "latency_average_seconds", "Exponential moving average of question-to-answer latency.", "qa_latency"},
-		gaugeDefinition{2, "concurrent_queries", "Number of concurrent queries.", "concurrent_queries"},
-		gaugeDefinition{3, "cache_size", "Number of entries in the cache.", "cache_entries"},
+		gaugeDefinition{1, "latency_average_seconds", "Exponential moving average of question-to-answer latency.", "qa-latency"},
+		gaugeDefinition{2, "concurrent_queries", "Number of concurrent queries.", "concurrent-queries"},
+		gaugeDefinition{3, "cache_size", "Number of entries in the cache.", "cache-entries"},
 	}
 
 	recursorCounterDefs = []counterDefinition{
@@ -86,13 +86,13 @@ var (
 // PowerDNS authoritative server metrics definitions
 var (
 	authoritativeGaugeDefs = []gaugeDefinition{
-                gaugeDefinition{6, "security_status", "PDNS Server Security status based on security-status.secpoll.powerdns.com", "security-status"},
-                gaugeDefinition{1, "latency_average_seconds", "Average number of microseconds a packet spends within PowerDNS", "latency"},
-                gaugeDefinition{2, "packet_cache_size", "Number of entries in the packet cache.", "packetcache-size"},
-                gaugeDefinition{3, "signature_cache_size", "Number of entries in the signature cache.", "signature-cache-size"},
-                gaugeDefinition{4, "key_cache_size", "Number of entries in the key cache.", "key-cache-size"},
-                gaugeDefinition{5, "metadata_cache_size", "Number of entries in the metadata cache.", "meta-cache-size"},
-                gaugeDefinition{6, "qsize", "Number of packets waiting for database attention.", "qsize-q"},
+                gaugeDefinition{1, "security_status", "PDNS Server Security status based on security-status.secpoll.powerdns.com", "security-status"},
+                gaugeDefinition{2, "latency_average_seconds", "Average number of microseconds a packet spends within PowerDNS", "latency"},
+                gaugeDefinition{3, "packet_cache_size", "Number of entries in the packet cache.", "packetcache-size"},
+                gaugeDefinition{4, "signature_cache_size", "Number of entries in the signature cache.", "signature-cache-size"},
+                gaugeDefinition{5, "key_cache_size", "Number of entries in the key cache.", "key-cache-size"},
+                gaugeDefinition{6, "metadata_cache_size", "Number of entries in the metadata cache.", "meta-cache-size"},
+                gaugeDefinition{7, "qsize", "Number of packets waiting for database attention.", "qsize-q"},
 	}
 	authoritativeCounterDefs = []counterDefinition{
                 counterDefinition{
