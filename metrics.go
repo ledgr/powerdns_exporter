@@ -59,9 +59,9 @@ var (
 // PowerDNS recursor metrics definitions
 var (
 	recursorGaugeDefs = []gaugeDefinition{
-		gaugeDefinition{1, "latency_average_seconds", "Exponential moving average of question-to-answer latency.", "qa_latency"},
-		gaugeDefinition{2, "concurrent_queries", "Number of concurrent queries.", "concurrent_queries"},
-		gaugeDefinition{3, "cache_size", "Number of entries in the cache.", "cache_entries"},
+		gaugeDefinition{1, "latency_average_seconds", "Exponential moving average of question-to-answer latency.", "qa-latency"},
+		gaugeDefinition{2, "concurrent_queries", "Number of concurrent queries.", "concurrent-queries"},
+		gaugeDefinition{3, "cache_size", "Number of entries in the cache.", "cache-entries"},
 	}
 
 	recursorCounterDefs = []counterDefinition{
