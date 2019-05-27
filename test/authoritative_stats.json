@@ -1,0 +1,277 @@
+[
+  {
+    "name": "corrupt-packets",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "deferred-cache-inserts",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "deferred-cache-lookup",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "dnsupdate-answers",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "dnsupdate-changes",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "dnsupdate-queries",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "dnsupdate-refused",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "fd-usage",
+    "type": "StatisticItem",
+    "value": "21"
+  },
+  {
+    "name": "incoming-notifications",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "key-cache-size",
+    "type": "StatisticItem",
+    "value": "1"
+  },
+  {
+    "name": "latency",
+    "type": "StatisticItem",
+    "value": "1308"
+  },
+  {
+    "name": "meta-cache-size",
+    "type": "StatisticItem",
+    "value": "2"
+  },
+  {
+    "name": "overload-drops",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "packetcache-hit",
+    "type": "StatisticItem",
+    "value": "76374"
+  },
+  {
+    "name": "packetcache-miss",
+    "type": "StatisticItem",
+    "value": "363"
+  },
+  {
+    "name": "packetcache-size",
+    "type": "StatisticItem",
+    "value": "19"
+  },
+  {
+    "name": "qsize-q",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "query-cache-hit",
+    "type": "StatisticItem",
+    "value": "907"
+  },
+  {
+    "name": "query-cache-miss",
+    "type": "StatisticItem",
+    "value": "1299"
+  },
+  {
+    "name": "rd-queries",
+    "type": "StatisticItem",
+    "value": "329"
+  },
+  {
+    "name": "real-memory-usage",
+    "type": "StatisticItem",
+    "value": "7991296"
+  },
+  {
+    "name": "recursing-answers",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "recursing-questions",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "recursion-unanswered",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "security-status",
+    "type": "StatisticItem",
+    "value": "1"
+  },
+  {
+    "name": "servfail-packets",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "signature-cache-size",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "signatures",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "sys-msec",
+    "type": "StatisticItem",
+    "value": "1729"
+  },
+  {
+    "name": "tcp-answers",
+    "type": "StatisticItem",
+    "value": "168"
+  },
+  {
+    "name": "tcp-answers-bytes",
+    "type": "StatisticItem",
+    "value": "9072"
+  },
+  {
+    "name": "tcp-queries",
+    "type": "StatisticItem",
+    "value": "168"
+  },
+  {
+    "name": "tcp4-answers",
+    "type": "StatisticItem",
+    "value": "168"
+  },
+  {
+    "name": "tcp4-answers-bytes",
+    "type": "StatisticItem",
+    "value": "9072"
+  },
+  {
+    "name": "tcp4-queries",
+    "type": "StatisticItem",
+    "value": "168"
+  },
+  {
+    "name": "tcp6-answers",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "tcp6-answers-bytes",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "tcp6-queries",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "timedout-packets",
+    "type": "StatisticItem",
+    "value": "1"
+  },
+  {
+    "name": "udp-answers",
+    "type": "StatisticItem",
+    "value": "76736"
+  },
+  {
+    "name": "udp-answers-bytes",
+    "type": "StatisticItem",
+    "value": "4303840"
+  },
+  {
+    "name": "udp-do-queries",
+    "type": "StatisticItem",
+    "value": "47"
+  },
+  {
+    "name": "udp-in-errors",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp-noport-errors",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp-queries",
+    "type": "StatisticItem",
+    "value": "76737"
+  },
+  {
+    "name": "udp-recvbuf-errors",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp-sndbuf-errors",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp4-answers",
+    "type": "StatisticItem",
+    "value": "76736"
+  },
+  {
+    "name": "udp4-answers-bytes",
+    "type": "StatisticItem",
+    "value": "4303840"
+  },
+  {
+    "name": "udp4-queries",
+    "type": "StatisticItem",
+    "value": "76737"
+  },
+  {
+    "name": "udp6-answers",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp6-answers-bytes",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "udp6-queries",
+    "type": "StatisticItem",
+    "value": "0"
+  },
+  {
+    "name": "uptime",
+    "type": "StatisticItem",
+    "value": "10113"
+  },
+  {
+    "name": "user-msec",
+    "type": "StatisticItem",
+    "value": "1877"
+  }
+]
