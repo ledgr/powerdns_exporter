@@ -20,8 +20,8 @@ import (
 
 const (
        namespace        = "powerdns"
-       apiInfoEndpoint  = "servers/localhost"
-       apiStatsEndpoint = "servers/localhost/statistics"
+       apiInfoEndpoint  = "api/v1/servers/localhost"
+       apiStatsEndpoint = "api/v1/servers/localhost/statistics"
 )
 
 var (
